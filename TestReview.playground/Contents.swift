@@ -111,7 +111,7 @@ addition(-3, -6) ➞ -9
 addition(7, 3) ➞ 10
 */
 func addition(num1: Int, num2: Int) -> Int{
-    var sum: Int 
+    var sum: Int
     sum = num1 + num2
     return sum
 }
@@ -120,7 +120,14 @@ func addition(num1: Int, num2: Int) -> Int{
 
 
 /*: 6) Write a function named min2 that takes two Int values, a and b, and returns the smallest one. Use _ to ignore the external parameter names for both a and b. */
-
+func min2(a: Int, b: Int) -> Int{
+    if a > b{
+        return b
+    } else if a < b{
+        return a
+    }
+    return 
+}
 
 
 
