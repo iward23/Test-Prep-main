@@ -126,7 +126,7 @@ func min2(a: Int, b: Int) -> Int{
     } else if a < b{
         return a
     }
-    return 
+    return
 }
 
 
@@ -138,7 +138,10 @@ func min2(a: Int, b: Int) -> Int{
 7) Write a function that takes an Int and returns it’s last digit. Name the function lastDigit. Use _ to ignore the external parameter name.
 
 */
-
+func lastDigit(num: Int) -> Int
+{
+    
+}
 
 
 
